@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О Разработчике</title>
+    <meta name="description" content="Узнайте больше о разработчике, специализирующемся на создании современных пользовательских интерфейсов и обеспечении высокого качества услуг.">
+    <meta name="author" content="Шалагинов Виталий">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-row">
+                <nav class="header-nav">
+                    <a href="index.html">ГЛАВНАЯ</a>
+                    <a href="about.html">О РАЗРАБОТЧИКЕ</a>
+                    <a href="portfolio.html">ПОРТФОЛИО</a>
+                    <a href="blog.html">БЛОГ</a>
+                    <a href="reviews.html">ОТЗЫВЫ</a>
+                    <a href="contacts.html">КОНТАКТЫ</a>
+                </nav>
+                <div class="header-lang">EN</div>
+                <button type="button" class="mobile-nav-button">
+                    <span class="mobile-nav-button__icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-nav">
+        <nav class="mobile-nav-list">
+            <a href="index.html">ГЛАВНАЯ</a>
+            <a href="about.html">О РАЗРАБОТЧИКЕ</a>
+            <a href="portfolio.html">ПОРТФОЛИО</a>
+            <a href="blog.html">БЛОГ</a>
+            <a href="reviews.html">ОТЗЫВЫ</a>
+            <a href="contacts.html">КОНТАКТЫ</a>  
+        </nav>
+        <div class="mobile-lang">EN</div>
+    </div>
+
+    <main>
+        <section class="about">
+            <div class="container">
+                <div class="about-content">
+                    <h1 class="about-heading">Обо мне</h1>
+                    <div class="about-text">
+                        <p>Специализируюсь на создании современных пользовательских интерфейсов. Готов делиться своим опытом с заинтересованным клиентом.</p>
+                        Своими профессиональными достоинствами считаю:
+                        <li>детальный подход к работе;</li>
+                        <li>четкое соответствие ТЗ;</li>
+                        <li>грамотность и вежливость.</li>
+                    </div>
+                    <div class="programming-stats">
+                        <div class="chart-container">
+                            <canvas class="my-chart"></canvas>
+                        </div>
+
+                        <div class="details">
+                            <ul></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-bg-img">
+                <img src="img/Main_BackGround.png" alt="Main Background cover">
+            </div>
+        </section>
+    </main>
+
+    <button id="scrollToTopBtn" class="scrollToTopBtn">↑</button>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <ul class="social-links">
+                    <a href="https://github.com/Shalaginov-VD">
+                        <img src="img/github.png" alt="Github logo">
+                    </a>
+                    <a href="#">
+                        <img src="img/mail.png" alt="Mail logo">
+                    </a>
+                </ul>
+                <p class="copyright"> © Шалагинов Виталий 2024 </p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="main.js"></script>
+    <script src="menu.js"></script>
+    <script src="scroll.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap-сетка в Figma</title>
+    <meta name="description" content="Статья о создании Bootstrap-сетки в Figma.">
+    <meta name="author" content="Шалагинов Виталий">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-row">
+                <nav class="header-nav">
+                    <a href="index.html">ГЛАВНАЯ</a>
+                    <a href="about.html">О РАЗРАБОТЧИКЕ</a>
+                    <a href="portfolio.html">ПОРТФОЛИО</a>
+                    <a href="blog.html">БЛОГ</a>
+                    <a href="reviews.html">ОТЗЫВЫ</a>
+                    <a href="contacts.html">КОНТАКТЫ</a>
+                </nav>
+                <div class="header-lang">EN</div>
+                <button type="button" class="mobile-nav-button">
+                    <span class="mobile-nav-button__icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-nav">
+        <nav class="mobile-nav-list">
+            <a href="index.html">ГЛАВНАЯ</a>
+            <a href="about.html">О РАЗРАБОТЧИКЕ</a>
+            <a href="portfolio.html">ПОРТФОЛИО</a>
+            <a href="blog.html">БЛОГ</a>
+            <a href="reviews.html">ОТЗЫВЫ</a>
+            <a href="contacts.html">КОНТАКТЫ</a>  
+        </nav>
+        <div class="mobile-lang">EN</div>
+    </div>
+
+    <main>
+        <section class="post1">
+            <div class="container">
+                <div class="post1-content">
+                    <h1 class="post1-heading">Создание Bootstrap-сетки в Figma</h1>
+                    <img class="post1-img" src="img/Figma.png" alt="Post1 Img">
+                    <div class="post1-meta">
+                        <span class="post1-date">01 января 2025</span>
+                        <span class="post1-category"><strong style="color: #4A78EF;">Разное</strong></span>
+                        <span class="post1-tag"><strong style="color: #4A78EF;">Figma</strong></span>
+                        <span class="post1-rating">
+                            0 <img src="img/Star.png" alt="Star">
+                        </span>
+                    </div>
+                    <div class="post1-text">
+                        <p>Недавно я начал пользоваться сервисом Figma для проектирования макета своего первого сайта. Получилось неплохо, но оказалось, что макет не был
+                        адаптирован под всевозможные разрешения экрана.</p>
+                        <p>Ниже приведены шаги по созданию сетки для адаптирования в Figma. Если у вас нет макета и вы создаёте его с нуля, 
+                        данный способ также можно использовать:</p>
+                        <ol>
+                            <li>Во вкладке “Design” (в правой панели) вашего “Frame” найдите пункт “Layout grid”;</li>
+                            <li>Нажмите рядом с названием на плюс и выберите сетку “Columns”.</li>
+                            <li>Установите следующие параметры:</li>
+                                <ul>
+                                    <li>count: 12;</li>
+                                    <li>type: center;</li>
+                                    <li>width: 65;</li>
+                                    <li>gutter: 30.</li>
+                                </ul>
+                            <li>Добавьте ещё сетку “Rows” и установите параметры:</li>
+                                <ul>
+                                    <li>count: auto;</li>
+                                    <li>color: 5%;</li>
+                                    <li>type: top;</li>
+                                    <li>height: 10;</li>
+                                    <li>gutter: 10.</li>
+                                </ul>
+                        </ol>
+                        <p>Bootstrap-сетка готова. Теперь можно выравнивать элементы под сетку. Не забудьте увеличить высоту макета до 3500 (H) в секции “Frame”. Вы разрабатываете сайт, а не десктоп-приложение! 🙂</p>
+                    </div>
+                    <h1 class="comments">Комментарии</h1>
+                    <div class="rating-area">
+                        <input type="radio" id="star-5" name="rating" value="5">
+                        <label for="star-5" title="Оценка «5»"></label>	
+                        <input type="radio" id="star-4" name="rating" value="4">
+                        <label for="star-4" title="Оценка «4»"></label>    
+                        <input type="radio" id="star-3" name="rating" value="3">
+                        <label for="star-3" title="Оценка «3»"></label>  
+                        <input type="radio" id="star-2" name="rating" value="2">
+                        <label for="star-2" title="Оценка «2»"></label>    
+                        <input type="radio" id="star-1" name="rating" value="1">
+                        <label for="star-1" title="Оценка «1»"></label>
+                    </div>
+                    <div class="comments-input">
+                        <input type="text" placeholder="Написать комментарий">
+                        <button class="comments-submit">
+                            <img src="img/send_icon.png" alt="Send button">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="main-bg-img">
+                <img src="img/Main_BackGround.png" alt="Main Background cover">
+            </div>
+        </section>
+    </main>
+
+    <button id="scrollToTopBtn" class="scrollToTopBtn">↑</button>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <ul class="social-links">
+                    <a href="https://github.com/Shalaginov-VD">
+                        <img src="img/github.png" alt="Github logo">
+                    </a>
+                    <a href="#">
+                        <img src="img/mail.png" alt="Mail logo">
+                    </a>
+                </ul>
+                <p class="copyright"> © Шалагинов Виталий 2024 </p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="menu.js"></script>
+    <script src="scroll.js"></script>
+
+</body>
+
+</html>

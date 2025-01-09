@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <meta name="description" content="Здесь вы найдете все мои контактные данные и форму обратной связи для вопросов, предложений и сотрудничества. Буду рад помочь!">
+    <meta name="author" content="Шалагинов Виталий">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-row">
+                <nav class="header-nav">
+                    <a href="index.html">ГЛАВНАЯ</a>
+                    <a href="about.html">О РАЗРАБОТЧИКЕ</a>
+                    <a href="portfolio.html">ПОРТФОЛИО</a>
+                    <a href="blog.html">БЛОГ</a>
+                    <a href="reviews.html">ОТЗЫВЫ</a>
+                    <a href="contacts.html">КОНТАКТЫ</a>
+                </nav>
+                <div class="header-lang">EN</div>
+                <button type="button" class="mobile-nav-button">
+                    <span class="mobile-nav-button__icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-nav">
+        <nav class="mobile-nav-list">
+            <a href="index.html">ГЛАВНАЯ</a>
+            <a href="about.html">О РАЗРАБОТЧИКЕ</a>
+            <a href="portfolio.html">ПОРТФОЛИО</a>
+            <a href="blog.html">БЛОГ</a>
+            <a href="reviews.html">ОТЗЫВЫ</a>
+            <a href="contacts.html">КОНТАКТЫ</a>  
+        </nav>
+        <div class="mobile-lang">EN</div>
+    </div>
+
+    <main>
+        <section class="contacts">
+            <div class="container">
+                <div class="contacts-content">
+                    <h1 class="contacts-heading">Напишите мне</h1>
+                    <div class="contacts-text">
+                        Воспользуйтесь этой формой и я обязательно отвечу вам.
+                        <div class="feedback-form">
+                            <div class="feedback">
+                                <label for="name">Имя</label>
+                                <input type="text" id="name" required>
+                            </div>
+                            <div class="feedback">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" required>
+                            </div>
+                            <div class="feedback">
+                                <label for="subject">Тема</label>
+                                <input type="text" id="subject" required>
+                            </div>
+                            <div class="feedback">
+                                <label for="message">Сообщение</label>
+                                <textarea id="message" required></textarea>
+                            </div>
+                            <div class="feedback">
+                                <button type="submit" id="submitBtn">Отправить</button>
+                            </div>
+                        </div>
+                        <div class="mobile-feedback-form">
+                            <div class="feedback">
+                                <input type="text" placeholder="Имя">
+                            </div>
+                            <div class="feedback">
+                                <input type="text" placeholder="Email">
+                            </div>
+                            <div class="feedback">
+                                <input type="text" placeholder="Тема">
+                            </div>
+                            <div class="feedback">
+                                <textarea type="message" placeholder="Сообщение"></textarea>
+                            </div>
+                            <div class="feedback">
+                                <button>Отправить</button>
+                            </div>
+                        </div>
+                        <div class="contact-links">
+                            <h1>
+                                Ссылки
+                                <a href="https://github.com/Shalaginov-VD">
+                                    <img src="img/github_black.png" alt="Github link">
+                                </a>
+                                <a href="#">
+                                    <img src="img/mail_black.png" alt="Mail link">
+                                </a>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-bg-img">
+                <img src="img/Main_BackGround.png" alt="Main Background cover">
+            </div>
+        </section>
+    </main>
+
+    <button id="scrollToTopBtn" class="scrollToTopBtn">↑</button>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <ul class="social-links">
+                    <a href="https://github.com/Shalaginov-VD">
+                        <img src="img/github.png" alt="Github logo">
+                    </a>
+                    <a href="#">
+                        <img src="img/mail.png" alt="Mail logo">
+                    </a>
+                </ul>
+                <p class="copyright"> © Шалагинов Виталий 2024 </p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="menu.js"></script>
+    <script src="validation.js"></script>
+    <script src="scroll.js"></script>
+
+</body>
+
+</html>

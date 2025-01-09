@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блог</title>
+    <meta name="description" content="Добро пожаловать в мой блог – пространство для IT-разработчиков! Здесь я делюсь опытом, советами и актуальными новостями из мира технологий. Читайте статьи о программировании, разработке ПО, тестировании и тенденциях в IT.">
+    <meta name="author" content="Шалагинов Виталий">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-row">
+                <nav class="header-nav">
+                    <a href="index.html">ГЛАВНАЯ</a>
+                    <a href="about.html">О РАЗРАБОТЧИКЕ</a>
+                    <a href="portfolio.html">ПОРТФОЛИО</a>
+                    <a href="blog.html">БЛОГ</a>
+                    <a href="reviews.html">ОТЗЫВЫ</a>
+                    <a href="contacts.html">КОНТАКТЫ</a>
+                </nav>
+                <div class="header-lang">EN</div>
+                <button type="button" class="mobile-nav-button">
+                    <span class="mobile-nav-button__icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-nav">
+        <nav class="mobile-nav-list">
+            <a href="index.html">ГЛАВНАЯ</a>
+            <a href="about.html">О РАЗРАБОТЧИКЕ</a>
+            <a href="portfolio.html">ПОРТФОЛИО</a>
+            <a href="blog.html">БЛОГ</a>
+            <a href="reviews.html">ОТЗЫВЫ</a>
+            <a href="contacts.html">КОНТАКТЫ</a>  
+        </nav>
+        <div class="mobile-lang">EN</div>
+    </div>
+
+    <main>
+        <section class="blog">
+            <div class="container">
+                <div class="blog-content">
+                    <h1 class="blog-heading">Записи блога</h1>
+                    <button type="button" class="filters-btn">
+                        <a href="mobile-filters.html">
+                            <img src="img/filter.png" alt="Filters icon">
+                        </a>
+                    </button>
+                    <div class="blog-text">
+                        <div class="article">
+                            <h2 class="article-title">Создание Bootstrap-сетки в Figma</h2>
+                            <img src="img/Figma.png" alt="Figma" class="article-img">
+                            <div class="article-meta">
+                                <span class="article-date">01 января 2025</span>
+                                <span class="article-category"><strong style="color: #4A78EF;">Разное</strong></span>
+                                <span class="article-tag"><strong style="color: #4A78EF;">Figma</strong></span>
+                                <span class="article-rating">
+                                    0 <img src="img/Star.png" alt="Star">
+                                </span>
+                            </div>
+                            <p class="article-description">
+                                Недавно я начал пользоваться сервисом Figma для <br>
+                                проектирования макета своего первого сайта. <br>
+                                Получилось неплохо, но оказалось, что макет не был <br>
+                                адаптирован под всевозможные разрешения экрана.
+                            </p>
+                            <div class="button-container">
+                                <a href="bootstrap.html" class="read-more-btn">Читать далее</a>
+                            </div>
+                        </div>
+                        <div class="filters">
+                            <div class="categories">
+                                <h2>Категории</h2>
+                                <a href="#">Разное</a>
+                            </div>
+                            <div class="tags">
+                                <h2>Теги</h2>
+                                <a href="#">Figma</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-bg-img">
+                <img src="img/Main_BackGround.png" alt="Main Background cover">
+            </div>
+        </section>
+    </main>
+
+    <button id="scrollToTopBtn" class="scrollToTopBtn">↑</button>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <ul class="social-links">
+                    <a href="https://github.com/Shalaginov-VD">
+                        <img src="img/github.png" alt="Github logo">
+                    </a>
+                    <a href="#">
+                        <img src="img/mail.png" alt="Mail logo">
+                    </a>
+                </ul>
+                <p class="copyright"> © Шалагинов Виталий 2024 </p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="menu.js"></script>
+    <script src="scroll.js"></script>
+
+</body>
+
+</html>
