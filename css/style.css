@@ -791,6 +791,10 @@ body {
         display: none;
     }
 
+    .feedback input {
+        width: 290px;
+    }
+
     .mobile-feedback-form {
         display: block;
     }
@@ -835,5 +839,32 @@ body {
 
     .mobile-filters-category img, .mobile-filters-tags img  {
         margin-left: 340px;
+    }
+}
+
+@media (max-width: 360px) {
+    .work-caption {
+        top: 50px;
+        height: 165px;
+    }
+
+    .details ul li {
+        font-size: 16px;
+    }
+
+    .article-rating {
+        margin-left: 210px;
+    }
+
+    .post1-rating {
+        margin-left: 255px;
+    }
+
+    .rating-area label {
+        height: 100px;
+    }
+
+    .mobile-filters-category img, .mobile-filters-tags img {
+        margin-left: 320px;
     }
 }
